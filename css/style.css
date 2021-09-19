@@ -66,11 +66,49 @@ nav a {
 .hero-heading {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
 }
 
 .placeholder-div {
     width: 100%;
     height: 100px;
     background-color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div .placeholder-div p {
+    color: #1F2937;
+}
+
+.images-section-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.images-heading {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.image-div {
+    border: 2px solid blue;
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+}
+
+.image-row {
+    gap: 25px;
+}
+
+figure {
+    width: 150px;
+    text-align: center;
 }
