@@ -192,6 +192,10 @@ blockquote {
     border: 2px solid #E5E7EB;
 }
 
+.action-card button:active {
+    border: 2px dotted #E5E7EB;
+}
+
 .action-card h2 {
     color: #F9FAF8;
     font-size: 24px;
