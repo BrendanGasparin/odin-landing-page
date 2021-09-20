@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0, shrink-to-fit=no" />
     <title>Landing Page</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
@@ -15,9 +14,9 @@
           </div>
           <nav>
             <ul>
-              <li><a href="#">header link one</a></li>
-              <li><a href="#">header link two</a></li>
-              <li><a href="#">header link three</a></li>
+              <li><a href="#images-section-id">header link one</a></li>
+              <li><a href="#quote-section-id">header link two</a></li>
+              <li><a href="#action-section-id">header link three</a></li>
             </ul>
           </nav>
         </div>
@@ -25,33 +24,37 @@
       <main>
         <section class="hero-section">
           <div class="wide-margin flex-row">
-            <div class="half-div">
-              <h2 class="hero-heading">This website is awesome</h2>
-              <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-              <button>Sign up</button>
+            <div class="half-div right-margin">
+              <div class="hero-text">
+                <h2 class="hero-heading">This website is awesome</h2>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+              </div>
             </div>
-            <div class="half-div"><div class="placeholder-div"><p>Placeholder</p></div></div>
+            <div class="half-div"><div class="placeholder-div"><p>this is a placeholder for an image</p></div></div>
           </div>
         </section>
-        <section class="images-section">
-          <h2 class="images-heading">Some random information.</h2>
-          <div class="flex-row image-row">
-            <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
-            <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
-            <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
-            <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
-          </div>
+        <section class="images-section" id="images-section-id">
+            <h2 class="images-heading">Some random information.</h2>
+            <div class="flex-row image-row narrow-margin">
+              <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
+              <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
+              <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
+              <figure><div class="image-div"></div><figcaption>this is some subtext under an illustration or image</figcaption></figure>
+            </div>
         </section>
-        <section class="quote-section">
+        <section class="quote-section" id="quote-section-id">
           <div class="narrow-margin">
             <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
             <p>- Thor, God of Thunder</p>
           </div>
         </section>
         <section class="action-section">
-          <div class="action-card wide-margin">
-            <h2>Call to action! It's time!</h2>
-            <p>Sign up for our product by clicking that button right over there!</p>
+          <div class="action-card wide-margin" id="action-section-id">
+            <div>
+              <h2>Call to action! It's time!</h2>
+              <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
             <button>Sign up</button>
           </div>
         </section>
