@@ -4,7 +4,7 @@
 }
 
 :root {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -24,6 +24,10 @@ header {
     margin: 0 10%;
 }
 
+.narrow-margin {
+    margin: 0 15%;
+}
+
 .flex-row {
     display: flex;
 }
@@ -39,8 +43,19 @@ h1 {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex: 1 1 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-left: 22px;
+    list-style-type: none;
 }
 
 nav a {
@@ -121,4 +136,36 @@ figure {
 
 .quote-section-div {
     background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-section-div p {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.action-card {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-card h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
 }
